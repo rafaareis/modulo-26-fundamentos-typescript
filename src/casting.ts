@@ -5,4 +5,7 @@ namespace casting {
     (idade as string[]).forEach(x => {
         console.log(x);
     })
+
+    let nome: string = 35 as unknown as string;
+    
 }
