@@ -20,3 +20,6 @@ const novoAluno = {
     nome: "Lucas",
     idade: 32,
 };
+function exibeAluno(aluno) {
+    console.log(aluno.nome);
+}

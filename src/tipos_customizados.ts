@@ -1,6 +1,6 @@
 type aluno = {
     nome: string,
-    cursos: string[],
+    cursos?: string[],
     idade: number
 }
 
@@ -27,4 +27,8 @@ alunos.push({
 const novoAluno: aluno = {
     nome: "Lucas",
     idade: 32,
+}
+
+function exibeAluno(aluno: aluno) {
+    console.log(aluno.nome)
 }
